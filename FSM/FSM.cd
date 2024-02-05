@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FSM.FSMBase">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIQggCAAQCIEggAAIAAAFAQEABAABQEEABAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\FSMBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.FSMState">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAQAAAAIIAAAAAAAAQAAAAAAAAAAICgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\FSMState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.FSMTrigger">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\FSMTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.AttackState" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAgAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\AttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.DieState" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\DieState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.IdelState" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\IdelState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.EnterAtkDisTrigger" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Trigger\EnterAtkDisTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.ExitAtkDisTrigger" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Trigger\ExitAtkDisTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM.FindTargetTrigger" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Trigger\FindTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FSM.StateID">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAAAEAAAAAAAAgAAQAACAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\StateID.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSM.TriggerID">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAFAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\TriggerID.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
